@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 400;}
 
   body {
     font-family: sans-serif;
@@ -30,7 +30,7 @@
     max-width: 100%;
   }
 
-}
+
 
 main {
   max-width: 1280px;

@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import React from 'react';
 import  ContactFrom from './components/ContactForm/ContactForm';
 import ContacList from './components/ContactList/ContactList';
