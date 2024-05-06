@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 
 const searchBoxSlice = createSlice({
-  name: 'filter         ',
+  name: 'filter',
   initialState: {name:""},
   reducers: {
     changeFilter (state, action) {
@@ -14,5 +14,3 @@ const searchBoxSlice = createSlice({
 export const { changeFilter } = searchBoxSlice.actions;
 
 export const filterReducer=  searchBoxSlice.reducer;
-
-export const selectNameFilter = state => state.name;
